@@ -1,1 +1,37 @@
-/*  your css code here. If applicable */
+body {
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; /* Light background for contrast */
+}
+
+.container {
+    width: 300px; /* Set a specific width for the container */
+    padding: 20px; /* Add padding inside the container */
+    border: 2px solid #000; /* Add a border around the container */
+    border-radius: 15px; /* Rounded corners for the container */
+    text-align: center; /* Center the content inside the container */
+    background-color: #fff; /* Background color for the container */
+}
+
+.red, .green, .yellow {
+    display: inline-block; /* Display blocks inline */
+    width: 80px; /* Set width for the blocks */
+    height: 80px; /* Set height for the blocks */
+	 border-radius: 50%; /* Make the blocks circular */
+    margin: 10px; /* Space between the blocks */
+}
+
+.red {
+    background-color: red; /* Red color for the block */
+}
+
+.green {
+    background-color: green; /* Green color for the block */
+}
+
+.yellow {
+    background-color: yellow; /* Yellow color for the block */
+}
